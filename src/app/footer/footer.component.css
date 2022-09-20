@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  border: black;
+}
+
+.mat-footer-cell {
+  background: goldenrod;
+  height: 5vh;
+}
+
+.mat-button {
+  width: 50vw;
+  height: 20px;
+}
