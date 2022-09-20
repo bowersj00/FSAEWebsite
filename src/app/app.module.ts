@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from "@angular/material/menu";
 import {MatIconModule} from "@angular/material/icon";
 import { PowerchainComponent } from './powerchain/powerchain.component';
-import { ElectionicsComponent } from './electionics/electionics.component';
+import { ElectronicsComponent } from './electronics/electronics.component';
 import { AerodynamicsComponent } from './aerodynamics/aerodynamics.component';
 import { BrakingComponent } from './braking/braking.component';
 import { SuspensionComponent } from './suspension/suspension.component';
@@ -24,7 +24,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     NavbarComponent,
     FooterComponent,
     PowerchainComponent,
-    ElectionicsComponent,
+    ElectronicsComponent,
     AerodynamicsComponent,
     BrakingComponent,
     SuspensionComponent,

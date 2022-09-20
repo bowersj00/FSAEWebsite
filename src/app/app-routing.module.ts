@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {LandingComponent} from "./landing/landing.component";
 import {PowerchainComponent} from "./powerchain/powerchain.component";
-import {ElectionicsComponent} from "./electionics/electionics.component";
+import {ElectronicsComponent} from "./electronics/electronics.component";
 import {AerodynamicsComponent} from "./aerodynamics/aerodynamics.component";
 import {BrakingComponent} from "./braking/braking.component";
 import {SuspensionComponent} from "./suspension/suspension.component";
@@ -13,7 +13,7 @@ const routes: Routes = [
   {path:'', redirectTo:'/landing', pathMatch:'full'},
   {path:'landing', component: LandingComponent},
   {path:'powertrain&drivetrain', component: PowerchainComponent},
-  {path:'electronics', component: ElectionicsComponent},
+  {path:'electronics', component: ElectronicsComponent},
   {path:'aerodynamics', component: AerodynamicsComponent},
   {path:'braking&controls', component: BrakingComponent},
   {path:'suspension', component: SuspensionComponent},
